@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'pages/terms' => 'pages#terms'
+
+  get 'pages/about' => 'pages#about'
+
   get 'home/index'
   get 'contacts' => 'contacts#new'
 
