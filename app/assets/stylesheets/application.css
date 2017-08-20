@@ -15,8 +15,8 @@
  */
 
 .field_with_errors input {
-	border_color:red;
+	border_color: red;
 }
 .field_with_errors textarea {
-	border_color:red;
+	border_color: red;
 }
