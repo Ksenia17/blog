@@ -1,9 +1,14 @@
 Rails.application.routes.draw do
+  
+  devise_for :users
+  root to: "home#index"
+
   get 'pages/terms' => 'pages#terms'
 
   get 'pages/about' => 'pages#about'
 
   get 'home/index'
+
   get 'contacts' => 'contacts#new'
 
   resources :articles do
